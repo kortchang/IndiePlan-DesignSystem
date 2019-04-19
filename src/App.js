@@ -1,11 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { BootstrapBaseCss } from "styled-base-components";
+import { ThemeProvider } from "styled-components";
+import { IndieTheme } from "../stories/color";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <BootstrapBaseCss />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
