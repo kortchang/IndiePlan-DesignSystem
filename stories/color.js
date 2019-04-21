@@ -1,10 +1,10 @@
 export const UIColor = {
   primary: "#4f9be5",
   primaryVarient: "#DCEBFA",
-  secondary: "#F2F2F2",
-  secondaryVarient: "#f6f7f9",
+  secondary: "#f69292",
   cardBackground: "#fff",
-  accent: "#000000cc"
+  accent: "#000000cc",
+  surface:"#F2F2F2",
 };
 
 export const TextColor = {

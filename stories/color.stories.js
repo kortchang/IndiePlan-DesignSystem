@@ -18,12 +18,9 @@ storiesOf("UI", module).add("All", () => (
         <ColorCard color={UIColor.primary} colorName="Primary" />
         <ColorCard color={UIColor.primaryVarient} colorName="PrimaryVarient" />
         <ColorCard color={UIColor.secondary} colorName="Secondary" />
-        <ColorCard
-          color={UIColor.secondaryVarient}
-          colorName="SecondaryVarient"
-        />
         <ColorCard color={UIColor.accent} colorName="Accent" />
         <ColorCard color={UIColor.cardBackground} colorName="CardBackground" />
+        <ColorCard color={UIColor.surface} colorName="Surface" />
       </Row>
     </Container>
   </div>
